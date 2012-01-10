@@ -2,6 +2,13 @@
 
 """ This is really a modified config file which has all the stuff we need """
 
-master = ["greeting"]
+master = {}
 
-jumbo = [["hi", "Greetings Good people"]]
+greeting = ["Hi,", "Greetings Good people,"]
+master['greeting']=greeting
+
+argument = ["Wrong.", "Untrue.", "You are mistaken.", "The evidence says otherwise."]
+master['argument']=argument
+
+closing = ["Bye,", "Sincerely,", "Yours Truly,"]
+master['closing']=closing
